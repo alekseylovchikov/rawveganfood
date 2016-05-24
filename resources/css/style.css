@@ -32,10 +32,10 @@ header {
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-weight: 300;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 h1 {
@@ -44,6 +44,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 6px;
+    letter-spacing: 2px;
 }
 
 h2 {
@@ -51,6 +52,7 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
 h2:after {
@@ -60,6 +62,21 @@ h2:after {
     width: 140px;
     background-color: #27ae60;
     margin: 30px auto 0 auto;
+}
+
+h3 {
+    font-size: 120%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3:after {
+    display: block;
+    content: " ";
+    width: 30px;
+    height: 2px;
+    margin: 20px auto 0 auto;
+    background-color: #27ae60;
 }
 
 .long-copy {
@@ -160,4 +177,13 @@ h2:after {
 
 section {
     padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+
+.box p {
+    line-height: 145%;
+    text-align: justify;
 }
