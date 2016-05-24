@@ -144,6 +144,11 @@ h3:after {
     float: left;
     margin-top: 20px;
     border: 4px solid #27ae60;
+    transition: border 0.2s;
+}
+
+.logo:hover {
+    border: 4px solid #33DA79;    
 }
 
 .main-nav {
@@ -195,4 +200,27 @@ section {
     font-size: 340%;
     color: #27ae60;
     text-align: center;
+}
+
+/* FAVORITE MEALS SECTION */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }
