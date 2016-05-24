@@ -187,3 +187,12 @@ section {
     line-height: 145%;
     text-align: justify;
 }
+
+/* ICON IN BOX */
+
+.box i {
+    display: block;
+    font-size: 340%;
+    color: #27ae60;
+    text-align: center;
+}
