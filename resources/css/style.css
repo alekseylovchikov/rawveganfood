@@ -17,6 +17,18 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 .row {
     max-width: 1140px;
     margin: 0 auto;
@@ -178,10 +190,14 @@ h3:after {
     border-bottom: 2px solid #27ae60;
 }
 
-/* FEATURUES */
+/* FEATURES */
 
-section {
+.section-features {
     padding: 80px 0;
+}
+
+.long-copy {
+    padding-bottom: 20px;
 }
 
 .box {
@@ -205,7 +221,8 @@ section {
 /* FAVORITE MEALS SECTION */
 
 .section-meals {
-
+    display: inline-block;
+    padding-top: 40px;
 }
 
 .meals-showcase {
@@ -238,4 +255,62 @@ section {
 .meal-photo img:hover {
     opacity: 1;
     transform: scale(1.05);
+}
+
+/* SECTION STEPS */
+
+.section-steps {
+    display: inline-block;
+    padding-top: 40px;
+    background-color: #f4f4f4;
+    width: 100%;
+}
+
+.app-screen {
+    width: 40%;
+    height: auto;
+}
+
+.btn-app {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn-app img {
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.step-box:first-child {
+    text-align: right;
+    padding-right: 3%;
+    margin-top: 30px;
+}
+
+.step-box:last-child {
+    padding-left: 3%;
+    margin-top: 70px;
+}
+
+.works-step {
+    margin-bottom: 50px;
+}
+
+.works-step:last-of-type {
+    margin-bottom: 76px;
+}
+
+.works-step div {
+    color: #27ae60;
+    border: 2px solid #27ae60;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 6px;
+    float: left;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 150%;
 }
